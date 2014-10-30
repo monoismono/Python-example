@@ -79,5 +79,7 @@ print( 'Dictionaries list is ' + str( dict[ 'favorite_number' ] ) )
 dict[ 'lang' ] = 'chinese'
 print( 'Add language to Dictionaries, language is ' + dict[ 'lang' ] )
 dict[ 'name' ] = '601'
-print( 'Dictionaries name is ' + dict[ 'name' ] )
+print( 'Modify Dictionaries name is ' + str( dict ) )
+del dict[ 'favorite_number' ]
+print( 'Remove Dictionaries favorite_number is ' + str( dict ) )
 
