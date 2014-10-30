@@ -2,6 +2,7 @@
 # 2014.10.30
 # this py is for basic example
 
+import os
 print( 'this is example for python var compare\n' )
 
 # for test compare results
@@ -23,3 +24,6 @@ print( 'test_bool is ' + str( test_bool ) )
 test_bool = 1 > 2
 print( "test_bool's value about 1 > 2 is " + str( test_bool ) )
 print( 'True and True is ' + str( True & True ) )
+print( ' ' )
+
+os.system( 'pause' )

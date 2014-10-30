@@ -2,6 +2,7 @@
 # 2014.10.30
 # this py is for basic example
 
+import os
 print( 'This is example for python if...else \n' )
 
 x = 1
@@ -24,3 +25,8 @@ elif name == 'nomo' :
   print( 'Hi nomo ' )
 else :
   print( 'Hi nono ' )
+
+print( ' ' )
+
+
+os.system( "pause" )

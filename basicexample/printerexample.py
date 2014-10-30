@@ -2,7 +2,7 @@
 # 2014.10.30
 # this py is for basic example
 
-
+import os
 print( 'this is example for python basic\n' )
 
 # print string & calculate
@@ -82,4 +82,6 @@ dict[ 'name' ] = '601'
 print( 'Modify Dictionaries name is ' + str( dict ) )
 del dict[ 'favorite_number' ]
 print( 'Remove Dictionaries favorite_number is ' + str( dict ) )
+print( ' ' )
 
+os.system ( "pause" )
