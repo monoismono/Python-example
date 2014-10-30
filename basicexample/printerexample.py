@@ -78,3 +78,6 @@ print( 'Dictionaries name is ' + dict[ 'name' ] )
 print( 'Dictionaries list is ' + str( dict[ 'favorite_number' ] ) )
 dict[ 'lang' ] = 'chinese'
 print( 'Add language to Dictionaries, language is ' + dict[ 'lang' ] )
+dict[ 'name' ] = '601'
+print( 'Dictionaries name is ' + dict[ 'name' ] )
+
