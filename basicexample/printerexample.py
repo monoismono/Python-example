@@ -1,8 +1,9 @@
+#!/usr/bin/python
 # Code example create by mono
 # 2014.10.30
 # this py is for basic example
 
-import os
+
 print( 'this is example for python basic\n' )
 
 # print string & calculate
@@ -84,4 +85,4 @@ del dict[ 'favorite_number' ]
 print( 'Remove Dictionaries favorite_number is ' + str( dict ) )
 print( ' ' )
 
-os.system ( "pause" )
+raw_input()

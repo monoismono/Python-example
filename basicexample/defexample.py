@@ -1,8 +1,8 @@
+#!/usr/bin/python
 # Code example create by mono
 # 2014.10.30
 # this py is for basic example
 
-import os
 
 print( 'this is example for how to def()\n' )
 
@@ -32,4 +32,4 @@ print( 'result of num_test( 1 , 1 ) is ' )
 num_test( 1 , 1 )
 print( ' ' )
 
-os.system( "pause" )
+raw_input()

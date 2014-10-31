@@ -1,8 +1,9 @@
+#!/usr/bin/python
 # Code example create by mono
 # 2014.10.30
 # this py is for basic example
 
-import os
+
 print( 'This is example for python if...else \n' )
 
 x = 1
@@ -28,5 +29,4 @@ else :
 
 print( ' ' )
 
-
-os.system( "pause" )
+raw_input()
