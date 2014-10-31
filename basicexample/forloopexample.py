@@ -29,15 +29,6 @@ for i in range( 10 , 0 , -1 ) :
     print( i )
 print( ' ' )
 
-#This is for while loop on str-list
-print( 'while loop on str list example ' )
-i = 0
-while not people[ i ]  :
-    print( 'peoplo in list is ' + str( people[ i ] ))
-    i += 1
-else :
-    print( 'there is no people on list ')
 
-print( '' )
 
 raw_input()
